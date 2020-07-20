@@ -1,0 +1,22 @@
+#include "coeff.h"
+extern const double A_p[]={2.6193, 1, 0, 0, 0, 0, -2.6043, 0, 1, 0, 0, 0, 1.1648, 0, 0, 1, 0, 0, -0.19791, 0, 0, 0, 1, 0, 6.6066e-06, 0, 0, 0, 0, 1, -1.6263e-06, 0, 0, 0, 0, 0};
+extern const double B_p[]={1, 0, 0, 0, 0, 0};
+extern const double C_p[]={0.053826, 0.033683, -0.12174, 0.052401, 0, 0};
+extern double D_p=0;
+extern const double A_pd[]={1.3742, 1, 0, 0, -0.48676, 0, 1, 0, 4e-06, 0, 0, 1, -4e-06, 0, 0, 0};
+extern const double B_pd[]={1, 0, 0, 0};
+extern const double C_pd[]={-0.3, -0.2061, 0.65638, -0.26284};
+extern double D_pd=1;
+extern const double A_c[]={2.6193, 1, 0, 0, 0, 0, -2.6043, 0, 1, 0, 0, 0, 1.1648, 0, 0, 1, 0, 0, -0.19791, 0, 0, 0, 1, 0, 6.6066e-06, 0, 0, 0, 0, 1, -1.6263e-06, 0, 0, 0, 0, 0};
+extern const double B_c[]={1, 0, 0, 0, 0, 0};
+extern const double C_c[]={-0.02957, 0.04786, -0.024321, 0.0035128, 3.5561e-06, -8.7537e-07};
+extern double D_c=0.53826;
+extern const double A_cd[]={1.3742, 1, 0, 0, -0.48676, 0, 1, 0, 4e-06, 0, 0, 1, -4e-06, 0, 0, 0};
+extern const double B_cd[]={1, 0, 0, 0};
+extern const double C_cd[]={3.7164, -6.2346, 3.3628, -0.55195};
+extern double D_cd=-3;
+extern double u=1;
+extern double xd[]={0, 0, 0, 0};
+extern double xp[]={0, 0, 0, 0, 0, 0};
+extern double xc[]={0, 0, 0, 0, 0, 0};
+extern double xcd[]={0, 0, 0, 0};
